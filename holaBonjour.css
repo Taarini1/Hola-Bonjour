@@ -1,0 +1,46 @@
+#background{
+    background-color:  #f036a2;
+}
+
+.header{
+ color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+}
+
+.login_div{background: rgba(255,255,255,0.8);float: none;border-radius: 15px; width:500px; height:fit-content;
+}
+
+.logo2{
+    width:150px;
+    height:100px;  
+    border-radius: 100px; 
+}
+
+#login_button{
+    border-radius: 10px;
+    background-color:purple;
+    font-size:25px;
+    color:aliceblue;
+
+}
+
+.background{
+    background-color: #23f7bb;
+}
+
+#logout{
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
+
+#image{
+ height: 300px;
+}
+
+.tick_image{
+width:40px;
+}

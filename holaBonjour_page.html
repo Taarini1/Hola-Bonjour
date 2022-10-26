@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="holaBonjour_page.js"></script>
+    <title>Message page</title>
+</head>
+<body>
+<div class="container">
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+		Hola Bonjour!
+			<sup>
+				<img src="icon-of-blank-message-dialogue-box-free-vector.jpg">
+			</sup>
+		</h1>
+		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+
+    
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+		<input class="form-control" placeholder="enter your message" id="msg" >
+        <button class="btn btn-danger" onclick="Send()">Send</button>
+	</div>
+</center>
+
+
+</body>
+</html>
